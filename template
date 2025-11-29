@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>記事タイトル | クラフターズノート</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="記事の説明文をここに書きます。">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    /* ここに前回のCSSをそのまま貼り付けてOK！ */
+    /* header, .container, main, aside, .toc, .video-wrapper, share-buttons など */
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="site-title">
+        <h1>クラフターズノート</h1>
+        <p>ものづくりの記録をまとめる記事サイト</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      <h2>記事タイトル</h2>
+      <div class="meta">投稿日・カテゴリ</div>
+
+      <nav class="toc">
+        <h2>目次</h2>
+        <ul>
+          <li><a href="#section1">セクション1</a></li>
+          <li><a href="#section2">セクション2</a></li>
+          <li><a href="#section3">セクション3</a></li>
+        </ul>
+      </nav>
+
+      <section id="section1">
+        <h2>セクション1</h2>
+        <p>ここに本文を書きます。</p>
+      </section>
+
+      <section id="video">
+        <h2>動画</h2>
+        <div class="video-wrapper">
+          <iframe src="動画のURL" title="YouTube video player" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section id="section2">
+        <h2>セクション2</h2>
+        <p>ここに本文を書きます。</p>
+      </section>
+
+      <section id="section3">
+        <h2>まとめ</h2>
+        <p>まとめの文章。</p>
+      </section>
+
+      <section id="after-summary">
+        <h2>次に読みたい記事</h2>
+        <ul>
+          <li><a href="#">関連記事1</a></li>
+          <li><a href="#">関連記事2</a></li>
+        </ul>
+
+        <h2>この記事をシェア</h2>
+        <div class="share-buttons">
+          <a href="https://x.com/intent/tweet?text=記事タイトル&url=https://example.com" target="_blank" aria-label="Xでシェア">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Instagramでシェア">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com" target="_blank" aria-label="Facebookでシェア">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://social-plugins.line.me/lineit/share?url=https://example.com" target="_blank" aria-label="LINEでシェア">
+            <i class="fab fa-line"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <div class="sidebar-section">
+        <h3>人気の記事</h3>
+        <ul>
+          <li><a href="#">人気記事1</a></li>
+          <li><a href="#">人気記事2</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>著者について</h3>
+        <p><strong>祐斗</strong><br>
+        Web・UI/UXデザイナー／YouTubeクリエイター。詩的な世界観を大切に、技術と表現を探求中。</p>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>広告</h3>
+        <div class="ad-placeholder">
+          ここに広告が入ります（準備中）
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <p>© 2025 クラフターズノート</p>
+    <p><a href="index.html">← 記事一覧に戻る</a></p>
+  </footer>
+</body>
+</html>
