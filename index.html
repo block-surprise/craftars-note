@@ -229,28 +229,6 @@
 
   <div class="container">
     <main>
-      <section id="latest-posts">
-  <h2>最新の記事</h2>
-  <ul id="rss-list"></ul>
-</section>
-
-<script>
-fetch("/feed.xml")
-  .then(res => res.text())
-  .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-  .then(data => {
-    const items = data.querySelectorAll("item");
-    const list = document.getElementById("rss-list");
-    for (let i = 0; i < Math.min(items.length, 5); i++) {
-      const title = items[i].querySelector("title").textContent;
-      const link = items[i].querySelector("link").textContent;
-      const date = new Date(items[i].querySelector("pubDate").textContent);
-      const li = document.createElement("li");
-      li.innerHTML = `<a href="${link}">${title}</a> <span class="date">${date.toLocaleDateString()}</span>`;
-      list.appendChild(li);
-    }
-  });
-</script>
 
       <section class="post-list" id="postList">
                 <article class="post-item">
