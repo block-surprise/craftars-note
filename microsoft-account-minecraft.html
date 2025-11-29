@@ -287,6 +287,21 @@ footer a:visited {
   font-size: 0.9rem;
   color: #555;
 }
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9比率 */
+  margin: 1.5rem 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 6px;
+}
 
     @media (max-width: 768px) {
       .header-inner {
@@ -339,6 +354,14 @@ footer a:visited {
         <p>マインクラフトをプレイするには、Microsoftアカウントでのログインが必要です。  
         Java版・統合版どちらも、Microsoftアカウントを使うことでマルチプレイやマーケットプレイスが利用できます。</p>
       </section>
+      
+<section id="video">
+  <h2>動画で見るログイン手順</h2>
+  <p>Microsoftアカウントでのログイン方法を、実際の画面で確認したい方はこちらの動画もどうぞ！</p>
+  <div class="video-wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D61NPmd2EtI?si=2QXt1Q6wz97ceeMm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</section>
 
       <section id="step1">
         <h2>ステップ①：マイクラを起動する</h2>
