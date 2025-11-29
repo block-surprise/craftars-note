@@ -15,4 +15,25 @@
     <priority>0.8</priority>
   </url>
 
+    <url>
+    <loc>https://crafters.blocksurprise.f5.si/hashi-speed-tips</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+    <url>
+    <loc>https://crafters.blocksurprise.f5.si/hive-murder</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+   <url>
+    <loc>https://crafters.blocksurprise.f5.si/microsoft-account-minecraft</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  
+  
 </urlset>
