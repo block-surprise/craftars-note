@@ -38,30 +38,235 @@
   </script>
 
   <style>
-    footer a {
-      color: #2a4d69;
-      text-decoration: none;
-    }
-    footer a:hover {
-      text-decoration: underline;
-    }
-    footer a:visited {
-      color: #2a4d69;
-    }
-    .video-wrapper {
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
-    }
-    .video-wrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
+/* ベーススタイル */
+body {
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.8;
+  color: #2a2f35;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* コンテナ */
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+@media (min-width: 960px) {
+  .container {
+    flex-direction: row;
+    gap: 32px;
+  }
+  main {
+    flex: 3;
+  }
+  aside {
+    flex: 1;
+  }
+}
+
+/* ヘッダー */
+header {
+  background-color: #f0f4f8;
+  padding: 24px 0;
+  border-bottom: 1px solid #dce3ea;
+}
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.site-title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.site-title p {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* 記事タイトルとメタ情報 */
+main h2 {
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+.meta {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+/* 目次 */
+.toc {
+  background: #f7f9fb;
+  border-left: 4px solid #a3c4dc;
+  padding: 16px;
+  margin: 24px 0;
+}
+.toc h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+.toc li {
+  margin: 8px 0;
+}
+.toc a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+.toc a:hover {
+  text-decoration: underline;
+}
+
+/* セクション */
+section {
+  margin-bottom: 40px;
+}
+section h2 {
+  border-bottom: 2px solid #e0e7ef;
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+}
+
+/* 動画 */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ギャラリー */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+.gallery .wide {
+  grid-column: 1 / -1;
+}
+.gallery figure {
+  margin: 0;
+  background: #f7f9fb;
+  border: 1px solid #e5eef5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  filter: saturate(0.95) contrast(1.03);
+}
+.gallery figcaption {
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  color: #2a2f35;
+  background: #f7f9fb;
+  border-top: 1px solid #e5eef5;
+}
+.gallery figure:hover img {
+  transform: scale(1.01);
+  transition: transform 220ms ease, filter 220ms ease;
+  filter: saturate(1.0) contrast(1.05);
+}
+
+/* シェアボタン */
+.share-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+.share-buttons a {
+  font-size: 1.2rem;
+  color: #2a4d69;
+  transition: color 0.2s ease;
+}
+.share-buttons a:hover {
+  color: #1c2e44;
+}
+
+/* サイドバー */
+aside {
+  margin-top: 40px;
+}
+.sidebar-section {
+  margin-bottom: 32px;
+}
+.sidebar-section h3 {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+.sidebar-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+.sidebar-section li {
+  margin: 6px 0;
+}
+.sidebar-section a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+.sidebar-section a:hover {
+  text-decoration: underline;
+}
+.ad-placeholder {
+  background: #f0f0f0;
+  padding: 16px;
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* フッター */
+footer {
+  background: #f0f4f8;
+  padding: 24px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #dce3ea;
+}
+footer a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer a:visited {
+  color: #2a4d69;
+}
+
   </style>
 </head>
 <body>
