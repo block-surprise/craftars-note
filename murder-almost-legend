@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>橋を速く作るための5つのコツ | クラフターズノート</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="マイクラで橋を素早く作るためのテクニックを5つ紹介。ジャンプブリッジやスプリントジャンプなど、実戦で使えるコツをまとめました。">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="橋を速く作るための5つのコツ | クラフターズノート">
+<meta property="og:description" content="マイクラで橋を素早く作るためのテクニックを5つ紹介。ジャンプブリッジやスプリントジャンプなど、実戦で使えるコツをまとめました。">
+<meta property="og:url" content="https://crafters.blocksurprise.f5.si/hashi-speed-tips">
+<meta property="og:image" content="https://crafters.blocksurprise.f5.si/hashi-speed.png">
+<meta property="og:site_name" content="クラフターズノート">
+  <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="橋を速く作るための5つのコツ | クラフターズノート">
+<meta name="twitter:description" content="マイクラで橋を素早く作るためのテクニックを5つ紹介。ジャンプブリッジやスプリントジャンプなど、実戦で使えるコツをまとめました。">
+<meta name="twitter:image" content="https://crafters.blocksurprise.f5.si/hashi-speed.png">
+
+  <link rel="stylesheet" href="/css/style-default.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon2.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "橋を速く作るための5つのコツ",
+  "description": "マイクラで橋を素早く作るためのテクニックを5つ紹介。ジャンプブリッジやスプリントジャンプなど、実戦で使えるコツをまとめました。",
+  "author": {
+    "@type": "Person",
+    "name": "ブロックサプライズ"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "クラフターズノート",
+    "url": "https://crafters.blocksurprise.f5.si",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crafters.blocksurprise.f5.si/favicon2.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crafters.blocksurprise.f5.si/hashi-speed-tips"
+  },
+  "datePublished": "2025-11-29"
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GD81F1VCB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0GD81F1VCB');
+</script>
+</head>
+  <style>
+     body {
+      font-family: "Noto Sans JP", sans-serif;
+      background: #fdfaf6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #2a4d69;
+      color: #fff;
+      padding: 1.5rem 1rem;
+    }
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .site-title h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    .site-title p {
+      margin: 0.3rem 0 0;
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      gap: 2rem;
+    }
+    main {
+      flex: 1 1 700px;
+    }
+    aside {
+      flex: 0 0 280px;
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 2rem;
+    }
+    img {
+  max-width: 100%;
+  height: auto;
+}
+
+    nav.toc {
+      background: #fff;
+      border-left: 4px solid #2a4d69;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+      border-radius: 6px;
+    }
+    nav.toc h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      color: #2a4d69;
+    }
+    nav.toc ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    nav.toc li {
+      margin: 0.4rem 0;
+    }
+    nav.toc a {
+      color: #2a4d69;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    nav.toc a:hover {
+      text-decoration: underline;
+    }
+    .site-title h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-title h1 a:hover {
+  text-decoration: none;
+}
+
+    h2 {
+      color: #2a4d69;
+      margin-top: 2rem;
+    }
+    p {
+      line-height: 1.8;
+    }
+    ol, ul {
+      padding-left: 1.2rem;
+    }
+    code {
+      background: #eee;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      margin: 1.5rem 0;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 6px;
+    }
+
+    aside h3 {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: #2a4d69;
+    }
+    .sidebar-section {
+      margin-bottom: 2rem;
+    }
+    .sidebar-section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .sidebar-section li {
+      margin-bottom: 0.6rem;
+    }
+    .sidebar-section a {
+      color: #2a4d69;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .sidebar-section a:hover {
+      text-decoration: underline;
+    }
+    .ad-placeholder {
+      background: #eee;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 6px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.85rem;
+      color: #666;
+      text-align: center;
+      background: #f0f0f0;
+      padding: 2rem;
+    }
+footer a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer a:visited {
+  color: #2a4d69; /* ← 通常と同じ色にする */
+}
+.share-buttons {
+  margin-top: 1rem;
+}
+
+.share-buttons a {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.8rem; /* ← 少し大きめに */
+  color: #2a4d69;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.share-buttons a:hover {
+  opacity: 0.6;
+}
+
+.share-buttons a:visited {
+  color: #2a4d69; /* ← クリック後も色が変わらないように */
+}
+
+#after-summary {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+}
+#after-summary h2 {
+  color: #2a4d69;
+  margin-top: 1.5rem;
+}
+#after-summary ul {
+  list-style: none;
+  padding-left: 0;
+}
+#after-summary li {
+  margin-bottom: 0.6rem;
+}
+#after-summary a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+#after-summary a:hover {
+  text-decoration: underline;
+}
+    .article-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  display: block;
+  width: calc(33.333% - 1rem);
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #2a4d69;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  color: #2a4d69;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+    @media (max-width: 768px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+      .container {
+        flex-direction: column;
+      }
+      aside {
+        width: 100%;
+      }
+nav.toc {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+}
+
+    }
+  </style>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="site-title">
+         <h1><a href="https://crafters.blocksurprise.f5.si/">クラフターズノート</a></h1>
+        <p>ものづくりの記録をまとめる記事サイト</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+<h2>あと一歩で無双だった夜──マーダーの緊張は一瞬もほどけない</h2>
+<div class="meta">2025年12月2日・マーダーミステリー・プレイ記録</div>
+
+<nav class="toc">
+  <h2>目次</h2>
+  <ul>
+    <li><a href="#intro">はじめに</a></li>
+    <li><a href="#flow">無双の兆し</a></li>
+    <li><a href="#collapse">崩れた瞬間</a></li>
+    <li><a href="#lesson">そこから学んだこと</a></li>
+    <li><a href="#summary">まとめ</a></li>
+  </ul>
+</nav>
+
+<section id="intro">
+  <h2>はじめに</h2>
+  <p>
+    マーダーミステリーは、静かな戦いだ。<br>
+    足音、視線、沈黙、そして一言の重み。<br>
+    この夜、ぼくはあと一歩で“無双”になれた。<br>
+    でも、ほんのわずかな油断が、すべてを崩した。
+  </p>
+</section>
+
+<section id="flow">
+  <h2>無双の兆し</h2>
+  <p>
+    最初の違和感は、ロビーでの動きだった。<br>
+    その直感は当たり、最初の推理が見事に刺さる。<br>
+    そこからは、まるで水を得たように読みが冴えた。<br>
+    誰が誰を見ていたか、どこで何が起きたか、すべてがつながっていく。<br>
+    「これはいける」──そう思った瞬間、空気が変わった。
+  </p>
+</section>
+
+<section id="collapse">
+  <h2>崩れた瞬間</h2>
+  <p>
+    油断は、音もなくやってくる。<br>
+    ひとりのプレイヤーの言葉を、信じすぎた。<br>
+    その一票が、ぼくを落とした。<br>
+    画面が暗転し、静かなロビーに戻ったとき、<br>
+    まだ心の中では、勝ち筋が見えていた。
+  </p>
+</section>
+
+<section id="lesson">
+  <h2>そこから学んだこと</h2>
+  <p>
+    マーダーは、一瞬たりとも気を抜けない。<br>
+    勝てると思ったときほど、視野が狭くなる。<br>
+    「もう分かった」と思ったら、5秒だけ黙ってみる。<br>
+    その間に、見えていなかったものが浮かび上がることがある。<br>
+    無双は、最後の一手まで“見ないふり”をすることで完成するのかもしれない。
+  </p>
+</section>
+
+<section id="summary">
+  <h2>まとめ</h2>
+  <p>
+    勝てなかった夜ほど、記憶に残る。<br>
+    あと一歩で届かなかったあの瞬間が、次の一手を静かに導いてくれる。<br>
+    マーダーの魅力は、勝ち負けじゃない。<br>
+    一度きりの物語に、自分がいたということ。<br>
+    それだけで、十分に価値がある。
+  </p>
+</section>
+
+
+<section id="after-summary">
+  <h2>次に読みたい記事</h2>
+  <div class="article-cards">
+        <a href="jump-bridge" class="card">
+      <img src="jump-bridge-demo.png" alt="ジャンプブリッジのやり方">
+      <div class="card-content">
+        <h3>ジャンプブリッジのやり方</h3>
+        <p>ジャンプブリッジの基本からコツまで説明</p>
+      </div>
+    </a>
+    <a href="microsoft-account-minecraft" class="card">
+      <img src="mine-login.png" alt="ログイン画面">
+      <div class="card-content">
+        <h3>マイクラにMicrosoftアカウントでログインする方法</h3>
+        <p>Microsoftアカウントでログインすると使えるものが増える!</p>
+      </div>
+    </a>
+        <a href="hive-murder" class="card">
+        <img src="mm.png" alt="マーダーのサムネイル">
+      <div class="card-content">
+        <h3>Hiveマーダーミステリーの心理戦</h3>
+        <p>Hiveのマーダーでのポイントなどを解説</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section id="share">
+  <h2>この記事をシェア</h2>
+  <div class="share-buttons">
+    <a href="https://x.com/intent/tweet?text=あと一歩で無双だった夜──マーダーの緊張は一瞬もほどけない&url=https://crafters.blocksurprise.f5.si/murder-almost-legend" target="_blank" aria-label="Xでシェア">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://crafters.blocksurprise.f5.si/murder-almost-legend" target="_blank" aria-label="Facebookでシェア">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://social-plugins.line.me/lineit/share?url=https://crafters.blocksurprise.f5.si/murder-almost-legend" target="_blank" aria-label="LINEでシェア">
+      <i class="fab fa-line"></i>
+    </a>
+  </div>
+</section>
+    </main>
+
+    <aside>
+      <div class="sidebar-section">
+        <h3>人気の記事</h3>
+        <ul>
+          <li><a href="jump-bridge">ジャンプブリッジのやり方</a></li>
+          <li><a href="hive-murder">Hiveマーダーミステリーの心理戦</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>著者について</h3>
+        <p><strong>ブロックサプライズ</strong><br>
+        Web・UI/UXデザイナー／YouTubeクリエイター。詩的な世界観を大切に、技術と表現を探求中。</p>
+      </div>
+
+      <div class="sidebar-section">
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <p>© 2025 クラフターズノート</p>
+    <p><a href="https://crafters.blocksurprise.f5.si/">← 記事一覧に戻る</a></p>
+  </footer>
+</body>
+</html>
