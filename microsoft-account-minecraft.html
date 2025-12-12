@@ -374,6 +374,22 @@ footer a:visited {
     width: 100%;
   }
     }
+      .moshimo-ad-wrap img {
+  /* 画像が親要素の幅いっぱいになるように設定 */
+  max-width: 100%;
+  /* 高さは幅に合わせて自動調整 */
+  height: auto;
+  /* (元のHTMLで指定されていた固定サイズ指定を打ち消すため、必要に応じて) */
+  width: auto;
+}
+
+/* もしもアフィリエイトの特定のサイズをPCで大きく表示したい場合 */
+@media (min-width: 768px) { /* 768px以上の画面幅の場合 */
+  .moshimo-ad-wrap {
+    /* 中央寄せにするなどの調整 */
+    text-align: center;
+  }
+}
   </style>
 </head>
 <body>
@@ -445,7 +461,12 @@ footer a:visited {
       </section>
 
       <p>[PR]</p>
-      <a href="//af.moshimo.com/af/c/click?a_id=5295268&p_id=4499&pc_id=11726&pl_id=60630" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc><img src="//image.moshimo.com/af-img/0437/000000060630.png" width="468" height="60" style="border:none;"></a><img src="//i.moshimo.com/af/i/impression?a_id=5295268&p_id=4499&pc_id=11726&pl_id=60630" width="1" height="1" style="border:none;" loading="lazy">
+      <div class="moshimo-ad-wrap">
+  <a href="//af.moshimo.com/af/c/click?..." rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>
+    <img src="//image.moshimo.com/af-img/0437/000000060630.png" style="border:none;">
+  </a>
+  <img src="//i.moshimo.com/af/i/impression?..." style="border:none;" loading="lazy">
+</div>
       
 <section id="step5">
   <h2>ステップ⑤：ログイン完了！</h2>
